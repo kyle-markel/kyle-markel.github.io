@@ -172,7 +172,8 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: 222222;
+  color: white;
+  background-color: #212529;
   /*background-image: url("../img/header-bg.jpg");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -586,7 +587,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  /*background-image: url("../img/map-image.png");*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -680,4 +681,20 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-modal {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
